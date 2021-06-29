@@ -1,0 +1,14 @@
+.friend-card{
+    background:#ddd;
+    border: 3px solid purple;
+    border-radius: 15px;
+    padding: 20px;
+    margin:30px;
+}
+h2{
+    color:green;
+}
+p{
+    color:red;
+    font-size:18px;
+}
