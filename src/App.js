@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import './App.css'; 
+import FriendDetail from './components/FriendDetail/FriendDetail';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/home">
           <Home/>
+        </Route>
+        <Route path="/friend/:friendId">
+          <FriendDetail/>
         </Route>
         <Route exact path="/">
           <Home/>
